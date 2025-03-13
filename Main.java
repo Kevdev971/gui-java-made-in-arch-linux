@@ -1,8 +1,9 @@
 import javax.swing.*;
 
-class Main {
-    public static void main(String[] a) {
+public class Main {
+    public static void main(String args[]) {
         JFrame jframe = new JFrame();
+        jframe.add(new JLabel("Hello World"));
         jframe.add(new JButton("click"));
         jframe.setResizable(false);
         jframe.setSize(500,400);
